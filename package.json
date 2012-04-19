@@ -1,0 +1,25 @@
+{
+	"name": "async-queue",
+	"description": "The power of Nau",
+	"version": "0.1.0",
+	"repository": "git://github.com/martinj/node-async-queue",
+	"homepage": "https://github.com/martinj/node-async-queue",
+	"licenses": [{
+		"type": "MIT",
+		"url": "https://github.com/martinj/node-async-queue/raw/master/LICENSE"
+	}],
+  	"keywords": ["queue", "async", "flow"],
+	"author": "Martin Jonsson <martin.jonsson@gmail.com>",
+	"engines": {
+		"node": ">= 0.4"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"mocha": "1.0.x",
+		"should": "*"
+	},
+	"main": "./async-queue",
+	"scripts" : {
+        "test" : "node_modules/.bin/mocha test/*.test.js"
+    }
+}
